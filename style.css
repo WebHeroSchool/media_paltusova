@@ -1,0 +1,88 @@
+.header {
+    font-size: 40px;
+    text-align: center;
+}
+.content {
+    text-align: center;
+}
+.content__title {
+    font-size: 35px;
+}
+
+.banner {
+    display: inline-block;
+    text-align: center;
+    width: 1068px;
+    height: 477px;
+}
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+	.header {
+        font-size: 40px;
+    }
+    .content__title {
+        font-size: 35px;
+    }
+}
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	.header {
+        font-size: 40px;
+    }
+    .content__title {
+        font-size: 35px;
+    }
+
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.header {
+        font-size: 25px;
+    }
+    .content__title {
+        font-size: 15px;
+    }
+    .banner {
+        display: none;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.header {
+        font-size: 20px;
+    }
+    .content__title {
+        font-size: 10px;
+    }
+    .banner {
+        display: none;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+	.header {
+        font-size: 25px;
+    }
+    .content__title {
+        font-size: 15px;
+}
+}
+
+@media only screen and (min-width : 992px) and (max-width: 1199px) {
+	.header {
+        font-size: 30px;
+    }
+    .content__title {
+        font-size: 25px;
+    }
+}
